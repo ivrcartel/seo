@@ -1,37 +1,37 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/ivrcartel/seo/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ivrcartel/seo/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!doctype html>
+<html lang="tr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Jquery Örnekleri- yazilimbilisim.net</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      
+    </head>
+    <body>
+        <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h1>Jquery Örnekleri</h1>
+            </div> 
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-xs-12">
+                <h1 class="alert-info" id="zemin">mesaj</h1>
+            </div>
+        </div>
+        
+        
+        <script  src="https://code.jquery.com/jquery-3.2.1.js"  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script>
+            //belge yüklendikten sonra çalıştırılacağını söyler
+            $(function(){
+                /*
+                id değeri zemin olan nesnenin 
+                içine merhaba dünya yaz
+                */
+                $('#zemin').html('merhaba dünya');           
+            });
+        </script>
+        </div>
+    </body>
+</html>
